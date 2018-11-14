@@ -14,9 +14,8 @@ Summary: The Nozzle package provides an API to generate HTML reports with dynami
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-nozzle.r1-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-nozzle.r1-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-nozzle.r1-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-nozzle.r1-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-nozzle.r1-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-nozzle-r1-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-nozzle.r1-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-nozzle.r1-feedstock)
 
 Current release info
 ====================
