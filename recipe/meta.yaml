@@ -1,4 +1,4 @@
-{% set version = '1.1-1' %}
+{% set version = "1.1-1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -16,7 +16,7 @@ source:
 
 build:
   noarch: generic
-  number: 1002
+  number: 1003
 
   rpaths:
     - lib/R/lib/
@@ -35,14 +35,13 @@ test:
 
 about:
   home: http://github.com/parklab/nozzle, http://gdac.broadinstitute.org/nozzle
-  license: LGPL-2
-  summary: The Nozzle package provides an API to generate HTML reports with dynamic user interface
-    elements based on JavaScript and CSS (Cascading Style Sheets). Nozzle was designed
-    to facilitate summarization and rapid browsing of complex results in data analysis
-    pipelines where multiple analyses are performed frequently on big data sets. The
-    package can be applied to any project where user-friendly reports need to be created.
+  license: LGPL-2.0-only
+  summary: The Nozzle package provides an API to generate HTML reports with dynamic user interface elements based on JavaScript and CSS (Cascading Style Sheets). Nozzle was designed to facilitate summarization and rapid browsing of complex results in data analysis pipelines where multiple analyses are performed frequently
+    on big data sets. The package can be applied to any project where user-friendly reports need to be created.
   license_family: LGPL
 
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/LGPL-2
 extra:
   recipe-maintainers:
     - conda-forge/r
