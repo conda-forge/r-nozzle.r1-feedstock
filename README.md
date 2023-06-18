@@ -1,11 +1,11 @@
-About r-nozzle.r1
-=================
+About r-nozzle.r1-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nozzle.r1-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/parklab/nozzle, http://gdac.broadinstitute.org/nozzle
 
 Package license: LGPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nozzle.r1-feedstock/blob/main/LICENSE.txt)
 
 Summary: The Nozzle package provides an API to generate HTML reports with dynamic user interface elements based on JavaScript and CSS (Cascading Style Sheets). Nozzle was designed to facilitate summarization and rapid browsing of complex results in data analysis pipelines where multiple analyses are performed frequently on big data sets. The package can be applied to any project where user-friendly reports need to be created.
 
